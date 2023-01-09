@@ -38,42 +38,27 @@ Kemudian saya tlah menyamtukan syntax yang nanti akan menghasilkan semua modul d
 (tambah data,ubah data,lihat data,hapus data,dan cari data)
 
 ```
-from view.input_nilai import *
-data={}
-class daftarnilai():
-    def tambah_data(self):
-        tambah_nama = nama()
-        tambah_nim = nim()
-        tambah_tugas = tugas()
-        tambah_uts = uts()
-        tambah_uas = uas()
-        tambah_akhir = akhir()
-        data[tambah_nama]= tambah_nim,tambah_tugas,tambah_uts,tambah_uas,tambah_akhir
-
-    def ubah_data(self):
-        ubah_nama = nama()
-        if ubah_nama in data.keys():
-           
-            tambah_nim = nim()
-            tambah_tugas = tugas()
-            tambah_uts = uts()
-            tambah_uas = uas()
-            tambah_akhir = akhir()
-            data[ubah_nama]= tambah_nim,tambah_tugas,tambah_uts,tambah_uas,tambah_akhir
-        else:
-            print('data tidak ditemukan !!!')
-
-    def hapus_data(self):
-        hapus_nama = nama()
-        if hapus_nama in data.keys():
-            del data[hapus_nama]
-            print('data berhasil di hapus')
-        else:
-            print('data tidak ditemukan !!!')
-
-    def keluar(self):```
+from model.daftar_nilai import daftarnilai
+from view.view_nilai import mencari
+while True:
+    b = daftarnilai()
+    c = mencari()
+    print('tambah\t(1)\nubah\t(2)\ncari\t(3)\nhapus\t(4)\nlihat\t(5)')
+    a = input('Masukkan pilihan > ')
+    if (a=="1"):
+        b.tambah_data()
+    elif (a=="2"):
+        b.ubah_data()
+    elif (a=="3"):
+        c.cetak_hasil_pencarian()
+    elif (a=="4"):
+        b.hapus_data()
+    elif (a=="5"):
+        c.cetak_daftar_nilai()
+    else :
+        break
     
-  ```
+```
   
 ### output tambah_data
    
