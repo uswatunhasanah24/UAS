@@ -76,7 +76,8 @@ class daftarnilai():
     
 ### output tambah_data
    
-![1](https://user-images.githubusercontent.com/115516474/211230458-c1c24a54-ca5a-4c73-9730-f1328cf722a4.png)
+![1](https://user-images.githubusercontent.com/115516474/211230561-4f653657-1c0d-4d3f-a40c-2f6ed6654f72.png)
+
    
 
      ### output daftar_nilai
