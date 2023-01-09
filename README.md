@@ -36,6 +36,7 @@ Sudah dibuat Package seperti gambar di atas
 
 Kemudian saya tlah menyamtukan syntax yang nanti akan menghasilkan semua modul dari `daftar_nilai` yang diantaranya adalah 
 (tambah data,ubah data,lihat data,hapus data,dan cari data)
+
 ```
 from view.input_nilai import *
 data={}
@@ -70,12 +71,13 @@ class daftarnilai():
         else:
             print('data tidak ditemukan !!!')
 
-    def keluar(self):
-    ```
+    def keluar(self):```
     
-    ### output tambah_data
+    
+### output tambah_data
    
-   ![1](https://user-images.githubusercontent.com/115516474/211230206-68a60a0e-b25c-43c2-bdb4-a3b9ae902de9.png)
+![1](https://user-images.githubusercontent.com/115516474/211230458-c1c24a54-ca5a-4c73-9730-f1328cf722a4.png)
+   
 
      ### output daftar_nilai
     
