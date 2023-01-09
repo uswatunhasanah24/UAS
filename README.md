@@ -73,30 +73,30 @@ class daftarnilai():
 
     def keluar(self):```
     
-    
+  ```
+  
 ### output tambah_data
    
 ![1](https://user-images.githubusercontent.com/115516474/211230561-4f653657-1c0d-4d3f-a40c-2f6ed6654f72.png)
 
    
 
-     ### output daftar_nilai
+### output daftar_nilai
     
-    ![2](https://user-images.githubusercontent.com/115516474/211230223-c890a9ad-16b6-474c-bfaa-d7071b24edd7.png)
+![2](https://user-images.githubusercontent.com/115516474/211230223-c890a9ad-16b6-474c-bfaa-d7071b24edd7.png)
 
     
-    ### output ubah_data
+### output ubah_data
     
-    ![3](https://user-images.githubusercontent.com/115516474/211230232-218afe23-8f8f-43b9-ab19-f49419d05fe4.png)
+![3](https://user-images.githubusercontent.com/115516474/211230232-218afe23-8f8f-43b9-ab19-f49419d05fe4.png)
 
-    ![4](https://user-images.githubusercontent.com/115516474/211230236-a4076dba-b4d2-4b09-ac3d-1c356d10451e.png)
+![4](https://user-images.githubusercontent.com/115516474/211230236-a4076dba-b4d2-4b09-ac3d-1c356d10451e.png)
 
+### output cari_data
     
-    ### output cari_data
-    
-    ![5](https://user-images.githubusercontent.com/115516474/211230252-82f5282b-4aa7-4d80-add6-049f12cca677.png)
+![5](https://user-images.githubusercontent.com/115516474/211230252-82f5282b-4aa7-4d80-add6-049f12cca677.png)
 
-     ### output hapus_data
+ ### output hapus_data
 
 ![6](https://user-images.githubusercontent.com/115516474/211230268-e5f90b20-1c5f-43a4-b17a-9c7d45780af8.png)
 
